@@ -61,7 +61,7 @@ Write in a professional, data-driven tone suitable for real estate investors and
                 }
             ],
             model="llama-3.3-70b-versatile",  # Fast and accurate model
-            temperature=0.7,  # Balanced creativity
+            temperature=0.4,  # Balanced creativity
             max_tokens=1024,  # Enough for detailed summary
         )
         
