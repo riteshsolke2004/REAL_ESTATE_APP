@@ -39,6 +39,7 @@ backend/.env
 *.env
 .env
 .env.local
+node_modules/
 
 # Excel cache
 ~$*.xlsx
