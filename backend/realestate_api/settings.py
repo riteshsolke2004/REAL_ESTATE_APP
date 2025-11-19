@@ -109,7 +109,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS Configuration
 CORS_ALLOWED_ORIGINS = os.environ.get(
     'CORS_ALLOWED_ORIGINS',
-    'http://localhost:3000,http://localhost:5173,http://127.0.0.1:5173'
+    'http://localhost:3000,http://localhost:8080,http://127.0.0.1:5173,https://real-estate-app-ks3a.vercel.app'
 ).split(',')
 
 CORS_ALLOW_CREDENTIALS = True
